@@ -3,6 +3,7 @@ Testapp::Application.routes.draw do
   
 
   root :to => 'staticpage#index'
+  resources :pics
 
 
   # first created -> highest priority.
